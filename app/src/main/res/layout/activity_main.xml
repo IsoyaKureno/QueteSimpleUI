@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apprenti.quetesimpleui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="571dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="@color/colorAccent"
+            android:text="Welcome to the Wild Code School !"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="0.02"
+            android:onClick=""
+            android:text="Oui, je souhaite devenir un Wilder"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="99dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:enabled="false"
+            android:text="Valider"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quete Simple UI</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+</resources>
