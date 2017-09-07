@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.apprenti.quetesimpleui.MainActivity">
+    tools:context="com.example.apprenti.quetesimpleui.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <LinearLayout
         android:layout_width="379dp"
         android:layout_height="571dp"
         android:orientation="vertical"
-        android:weightSum="1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp">
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/textView2"
@@ -21,7 +21,9 @@
             android:layout_weight="0.03"
             android:background="@color/colorAccent"
             android:text="Welcome to the Wild Code School !"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
 
         <CheckBox
             android:id="@+id/CheckBox"
@@ -30,7 +32,7 @@
             android:layout_weight="0.02"
             android:onClick=""
             android:text="Oui, je souhaite devenir un Wilder"
-            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="47dp"
             tools:textSize="18sp" />
 
@@ -38,33 +40,36 @@
             android:id="@+id/editText4"
             android:layout_width="match_parent"
             android:layout_height="53dp"
+            android:layout_weight="0.02"
             android:ems="10"
             android:enabled="false"
             android:hint="@string/first_name"
             android:inputType="textPersonName"
             android:textSize="18sp"
-            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="152dp" />
 
         <EditText
             android:id="@+id/editText5"
             android:layout_width="match_parent"
             android:layout_height="53dp"
+            android:layout_weight="0.02"
             android:ems="10"
             android:enabled="false"
             android:hint="@string/last_name"
             android:inputType="textPersonName"
             android:textSize="18sp"
-            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="99dp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="65dp"
+            android:layout_weight="0.02"
             android:enabled="false"
             android:text="Valider"
-            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="244dp" />
 
         <TextView
